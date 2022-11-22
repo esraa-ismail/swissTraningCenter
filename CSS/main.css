@@ -1,13 +1,15 @@
 * {
     outline: none;
 }
-body {
- 
+ h1  {
+    margin: 25px 0;
+    width: 100%;
+    text-align: center;
 }
 
 
 
-body p {
+ p {
     color: rgba(0, 0, 0, 0.829);
 
 }
@@ -15,6 +17,29 @@ body p {
 section {
     padding-top: 20px ;
 }
+
+button {
+    background: #000;
+    width: 200px;
+    border-radius: 5px;
+    height: 63px;
+    border: none;
+    color: #FFFFFF;
+    margin : 10px;
+    transition: all 0.5s ease-in-out ;
+
+}
+ button:hover {
+    background: #E21926 !important ;
+    color: #FFFFFF;
+}
+
+.overlay {
+    background: rgba(0, 0, 0,0.9);
+    width: auto;
+    height: 100%;
+    margin: 0;
+    padding: 15px; }
 
 
 header {
@@ -102,20 +127,23 @@ header .content button:hover {
     box-shadow: 20px 10px 34px -26px #000 ;
     border-radius: 4px 4px 4px 4px;
     box-sizing: border-box;
+    color:#C3CBD0
+}
+
+.whyOurCompany p {
+    color:#C3CBD0
+
 }
 
 
 .whyOurCompany .overlay {
-    background: rgba(0, 0, 0,0.2);
-    width: auto;
-    height: 100%;
-    margin: 0;
-    padding: 15px;
+ 
     border-radius: 4px 4px 4px 4px;
 }
 
 .whyOurCompany .overlay:hover {
-    background: rgba(255, 255, 255,0.5);
+    background: rgba(0, 0, 0,0.8);
+
 
 }
 
@@ -162,9 +190,12 @@ header .content button:hover {
 /*start why swiss ////////////*/
 .whySwiss {
     padding: 20px 0;
+    margin: 100px 0;
+    position: relative;
+
 }
-.whySwiss .text p {
-    background: rgba(0, 0, 0,0.2);
+.whySwiss .text p{
+    background: #F2F2F2;
     padding: 20px;
 
 }
@@ -173,12 +204,60 @@ header .content button:hover {
 
 } 
 .whySwiss .img{
-   background-image: url("/imgs/swiss.png") no-repeat center;
-   
+
+   background:url("../imgs/Swiss_flag.jpeg") no-repeat fixed;
+   background-position: top;
+   background-size: cover;
+   padding: 0;
+   height: inherit;
+   padding: 0;
+   border-radius: 10px ;
+
+}
+
+.whySwiss .overlay {
+    background: rgba(0, 0, 0,0.3);
+    border-radius: 10px;
+}
+.whySwiss button {
+    background-color: #E21926;
+}
+.whySwiss button:hover {
+    background-color: #000 !important;
 }
 .whySwiss2  {
     padding: 20px 0;
-    background: rgba(0, 0, 0,0.2);
+    background: #F2F2F2;
+
+}
+
+
+.whySwiss2 h1 {
+    margin: 50px 0;
+}
+.whySwiss2 p {
+    text-align: center;
+     width: 100%;
+     margin: 50px 0 ;
+}
+
+.whySwiss2 .inner {
+    padding: 10px;
+    background-color: #fff;
+    line-height: 20px;
+    font-size: 25px;
+    margin: 20px;
+    text-align: center;
+}
+.whySwiss2 .inner span {
+    font-size: 20px;
+    float: right;
+    text-align: center;
+
+}
+
+.whySwiss2 img {
+    border-radius: 50px ;
 
 }
 
@@ -187,13 +266,54 @@ header .content button:hover {
 .theUniv {
     padding: 20px 0;
 }
+/*////////////start testimonials */
+.whatareyouwaitingfor {
+    background: url("../imgs/uni.jpg") no-repeat fixed;
+    background-position: center;
+    background-size: cover;
+    padding: 0;
+}
 
+.whatareyouwaitingfor .overlay {
+    background-color: rgba(0, 0, 0,0.5);
+    width: 100%;
+    height: inherit;
+}
+
+.whatareyouwaitingfor .inner {
+    text-align: center;
+}
+
+.whatareyouwaitingfor h1 {
+   color: white;
+   font-weight: bold;
+}
+
+.whatareyouwaitingfor button {
+    background-color: #E21926;
+}
 /*///////Start Testimonial */
 
 .Testimonials  {
-    margin: 100px 0;
+    margin-top: 100px ;
+    height: 500px ;
+    background: #F2F2F2;
+ 
+}
+.Testimonials h1 {
+    width: 100%;
+    text-align: center;
 }
 
+
+
+.Testimonials button:hover {
+    background-color: #000;
+}
+
+.Testimonials .setting {
+     margin: 20px;
+}
 .Testimonials img {
     width: 200px;
     height: 200px;
