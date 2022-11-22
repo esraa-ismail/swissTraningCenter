@@ -2,13 +2,10 @@
     outline: none;
 }
 body {
- background-color: white;
+ 
 }
 
-body h1 {
-    font-family: monospace;
 
-}
 
 body p {
     color: rgba(0, 0, 0, 0.829);
@@ -164,6 +161,7 @@ header .content button:hover {
 
 /*start why swiss ////////////*/
 .whySwiss {
+    padding: 20px 0;
 }
 .whySwiss .text p {
     background: rgba(0, 0, 0,0.2);
@@ -178,6 +176,12 @@ header .content button:hover {
    background-image: url("/imgs/swiss.png") no-repeat center;
    
 }
+.whySwiss2  {
+    padding: 20px 0;
+    background: rgba(0, 0, 0,0.2);
+
+}
+
 /*////////////////////start our uni */
 
 .theUniv {
@@ -187,7 +191,7 @@ header .content button:hover {
 /*///////Start Testimonial */
 
 .Testimonials  {
-    padding: 20px 0;
+    margin: 100px 0;
 }
 
 .Testimonials img {
