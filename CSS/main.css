@@ -1,0 +1,251 @@
+* {
+    outline: none;
+}
+body {
+ background-color: white;
+}
+
+body h1 {
+    font-family: monospace;
+
+}
+
+body p {
+    color: rgba(0, 0, 0, 0.829);
+
+}
+
+section {
+    padding-top: 20px ;
+}
+
+
+header {
+    background-image: url("../imgs/header.jfif");
+    min-height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: top;
+}
+
+header .overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.3);
+    min-height: 500px;
+}
+
+nav {
+    width: 100%;
+    background-color: transparent;
+
+
+}
+nav a {
+    color: #FFFFFF !important;
+   
+
+}
+nav a:hover {
+    color:#E21926 !important;
+}
+
+
+header .content  {
+    height: 100%;
+    margin-top: 5vw;
+    padding: 3vw;
+    font-size: larger;
+    color: #FFFFFF !important;
+
+}
+
+header .content p {
+    color: #FFFFFF !important;
+
+}
+
+
+header .content button {
+    background: #000;
+    width: 200px;
+    border-radius: 5px;
+    height: 63px;
+    border: none;
+    color: #FFFFFF;
+
+}
+
+header .content button:hover {
+    background: #E21926 !important ;
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
+/* Start WhyOurCompany section */
+
+.whyOurCompany {
+    padding-bottom: 25px;
+}
+
+
+.whyOurCompany .top {
+    position: relative !important;
+    top: -40px;
+}
+.whyOurCompany .adv {
+   
+    margin: 5px;
+    padding:0;
+    box-shadow: 20px 10px 34px -26px #000 ;
+    border-radius: 4px 4px 4px 4px;
+    box-sizing: border-box;
+}
+
+
+.whyOurCompany .overlay {
+    background: rgba(0, 0, 0,0.2);
+    width: auto;
+    height: 100%;
+    margin: 0;
+    padding: 15px;
+    border-radius: 4px 4px 4px 4px;
+}
+
+.whyOurCompany .overlay:hover {
+    background: rgba(255, 255, 255,0.5);
+
+}
+
+.whyOurCompany i {
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+}
+
+.whyOurCompany h1 {
+    color: #FE0000;
+    font-size: 30px;
+    font-weight: 300;
+    font-family: monospace;
+    text-align: center;
+    width: 100%;
+}
+
+@media (max-width: 991px) {
+   
+    .whyOurCompany .top {
+        top:0;
+
+    }
+}
+
+/* Start Count Section ///////*/
+.count {
+    background-color: #FE0000 !important;
+    padding-top: 28px;
+   padding-bottom: 28px;
+    height: fit-content;
+    color: #FFFFFF;
+    
+}
+
+.count .text {
+    text-align: center;
+    width: 100%;
+}
+
+
+
+/*start why swiss ////////////*/
+.whySwiss {
+}
+.whySwiss .text p {
+    background: rgba(0, 0, 0,0.2);
+    padding: 20px;
+
+}
+
+.whySwiss p{
+
+} 
+.whySwiss .img{
+   background-image: url("/imgs/swiss.png") no-repeat center;
+   
+}
+/*////////////////////start our uni */
+
+.theUniv {
+    padding: 20px 0;
+}
+
+/*///////Start Testimonial */
+
+.Testimonials  {
+    padding: 20px 0;
+}
+
+.Testimonials img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+/*start Footer /////////////////////*/
+footer {
+    background-color:#000 ;
+    padding: 20px;
+    color:#fff ;
+}
+
+footer .payment-security  {
+    padding: 30px ;
+    border: 5px dashed;
+    border-radius: 50%;
+    text-align: center;
+}
+footer .payment-security h1 {
+    font-style: italic;
+    font-family: fantasy;
+    color: #E21926;
+}
+footer .payment-security h4{
+    font-size: 20px;
+    font-style: italic;
+    font-family: fangsong;
+}
+footer a {
+    color: rgba(255, 255, 255,0.5) !important;
+    text-decoration: none;
+}
+footer i {
+    color: rgba(255, 255, 255,0.5) !important;
+
+}
+footer p {
+    color: rgba(255, 255, 255,0.5) !important;
+
+}
+
+footer .social a {
+    margin: 10px;
+}
+footer.bottom-footer {
+    width: 100%;
+    background-color: #000;
+    color: #C3CBD0 !important;
+    padding: 10px;
+}
+footer.bottom-footer p {
+    color: #C3CBD0 !important; 
+}
+footer.bottom-footer a {
+    color: #C3CBD0 !important;
+    font-family: sans-serif;
+}
+
+
