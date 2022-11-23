@@ -89,7 +89,8 @@ header .content p {
 
 
 header .content button {
-    background: #000;
+    background: #E21926 !important ;
+
     width: 200px;
     border-radius: 5px;
     height: 63px;
@@ -99,7 +100,7 @@ header .content button {
 }
 
 header .content button:hover {
-    background: #E21926 !important ;
+    background: #000;
     color: #FFFFFF;
 }
 
@@ -113,66 +114,70 @@ header .content button:hover {
 
 .whyOurCompany {
     padding-bottom: 25px;
+    padding: 0;
 }
 
 
-.whyOurCompany .top {
-    position: relative !important;
-    top: -40px;
-}
+
 .whyOurCompany .adv {
    
-    margin: 5px;
-    padding:0;
-    box-shadow: 20px 10px 34px -26px #000 ;
+   
+    box-shadow: 20px 20px 15px -26px #000 ;
     border-radius: 4px 4px 4px 4px;
     box-sizing: border-box;
-    color:#C3CBD0
+    color:#C3CBD0;
+    padding: 0;
+    margin: 0;
+
 }
 
 .whyOurCompany p {
-    color:#C3CBD0
+    color: #333333;
+    padding: 0px 30px 30px 30px;
 
 }
 
 
-.whyOurCompany .overlay {
- 
-    border-radius: 4px 4px 4px 4px;
+.whyOurCompany .padding {
+  padding:0 20px;
+
 }
 
-.whyOurCompany .overlay:hover {
-    background: rgba(0, 0, 0,0.8);
-
-
+.whyOurCompany h2 {
+    font-size: 25px;
+    color: #000;
+    font-weight: 400;
+    text-align: center;
 }
 
 .whyOurCompany i {
-    font-size: 30px;
+    font-size: 70px;
     text-align: center;
     width: 100%;
+    color: #575954;
+    padding: 0;
+    margin: 0;
 }
 
 .whyOurCompany h1 {
-    color: #FE0000;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 300;
     font-family: monospace;
     text-align: center;
     width: 100%;
+    background: #333431;
+    height: 170px;
+    line-height: 170px; 
+     
+    
 }
 
-@media (max-width: 991px) {
-   
-    .whyOurCompany .top {
-        top:0;
 
-    }
-}
+
 
 /* Start Count Section ///////*/
 .count {
-    background-color: #FE0000 !important;
+    background: #333431;
     padding-top: 28px;
    padding-bottom: 28px;
     height: fit-content;
@@ -195,19 +200,20 @@ header .content button:hover {
 
 }
 .whySwiss .text p{
-    background: #F2F2F2;
+    background: #333431;
     padding: 20px;
+    color: #C3CBD0;
+    border-radius:10px ;
 
 }
 
-.whySwiss p{
-
-} 
+ 
 .whySwiss .img{
 
-   background:url("../imgs/Swiss_flag.jpeg") no-repeat fixed;
+   background:url("../imgs/Swiss_flag.jpeg") no-repeat ;
    background-position: top;
    background-size: cover;
+   background-attachment: fixed;
    padding: 0;
    height: inherit;
    padding: 0;
@@ -272,6 +278,8 @@ header .content button:hover {
     background-position: center;
     background-size: cover;
     padding: 0;
+    height: 600px;
+    position: relative;
 }
 
 .whatareyouwaitingfor .overlay {
@@ -282,6 +290,7 @@ header .content button:hover {
 
 .whatareyouwaitingfor .inner {
     text-align: center;
+    padding: 100px;
 }
 
 .whatareyouwaitingfor h1 {
@@ -289,13 +298,24 @@ header .content button:hover {
    font-weight: bold;
 }
 
+.whatareyouwaitingfor p {
+    color: #C3CBD0;
+    font-size: 30px;
+    text-align: center;
+}
+
 .whatareyouwaitingfor button {
     background-color: #E21926;
+    border: none;
+}
+
+.whatareyouwaitingfor button:hover {
+    background-color: transparent !important;
+    border: #E21926 2px solid !important;
 }
 /*///////Start Testimonial */
 
 .Testimonials  {
-    margin-top: 100px ;
     height: 500px ;
     background: #F2F2F2;
  
@@ -321,7 +341,7 @@ header .content button:hover {
 }
 /*start Footer /////////////////////*/
 footer {
-    background-color:#000 ;
+    background: #333431;
     padding: 20px;
     color:#fff ;
 }
