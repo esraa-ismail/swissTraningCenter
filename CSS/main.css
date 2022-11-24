@@ -29,7 +29,7 @@ button {
     border-radius: 5px;
     height: 63px;
     border: none;
-    color: #FFFFFF;
+    color: #FFFFFF  !important;
     margin : 10px;
     transition: all 0.5s ease-in-out ;
 
@@ -37,6 +37,12 @@ button {
  button:hover {
     background: #E21926 !important ;
     color: #FFFFFF;
+}
+
+button span {
+    color: #FFFFFF  !important;
+
+
 }
 
 .overlay {
@@ -105,8 +111,7 @@ header .content button {
 }
 
 header .content button:hover {
-    background: #000;
-    color: #FFFFFF;
+    background: #000 !important;
 }
 
 
@@ -256,19 +261,12 @@ header .content button:hover {
 }
 
 .whySwiss2 .inner {
-    padding: 10px;
     background-color: #fff;
-    line-height: 20px;
-    font-size: 25px;
-    margin: 20px;
+    padding: 12px;
+    border-radius: 10px;
     text-align: center;
 }
-.whySwiss2 .inner span {
-    font-size: 20px;
-    float: right;
-    text-align: center;
 
-}
 
 .whySwiss2 img {
     border-radius: 50px ;
@@ -283,7 +281,11 @@ header .content button:hover {
 /*////////////start testimonials */
 .whatareyouwaitingfor {
     position: relative;
-    background: url("../imgs/uni.jpg") no-repeat fixed;
+    background: url("../imgs/uni.jpg") no-repeat;
+    -webkit-background-attachment : fixed;
+    -moz-background-attachment : fixed;
+
+    background-attachment: fixed;
     background-position: center;
     background-size: cover;
     padding: 0;
@@ -299,7 +301,7 @@ header .content button:hover {
 
 .whatareyouwaitingfor .inner {
     text-align: center;
-    padding: 100px;
+    padding-top: 10%;
 }
 
 .whatareyouwaitingfor h1 {
@@ -322,10 +324,16 @@ header .content button:hover {
     background-color: transparent !important;
     border: #E21926 2px solid !important;
 }
+
+@media (max-width:449px) {
+    .whatareyouwaitingfor p {
+        font-size: 20px;
+    }
+}
 /*///////Start Testimonial */
 
 .Testimonials  {
-    padding: 200px;
+    padding-top: 10%;
     background: #F2F2F2;
     height: 500px;
  
@@ -338,7 +346,12 @@ header .content button:hover {
     text-align: center;
 }
 
+@media (max-width:768px) {
+    .Testimonials .carousel-caption p {
 
+        width: 100%;
+    }
+}
 
 /* .Testimonials button:hover {
     background-color: #E21926;
@@ -365,6 +378,7 @@ footer .payment-security  {
     border: 5px dashed;
     border-radius: 50%;
     text-align: center;
+    margin-bottom:10px ;
 }
 footer .payment-security h1 {
     font-style: italic;
@@ -379,6 +393,10 @@ footer .payment-security h4{
 footer a {
     color: rgba(255, 255, 255,0.5) !important;
     text-decoration: none;
+    cursor: pointer;
+}
+footer a:hover {
+    transform: scale(1.5);
 }
 footer i {
     color: rgba(255, 255, 255,0.5) !important;
